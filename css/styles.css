@@ -53,10 +53,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--shadow);
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 .section {
   padding-bottom: 94px;
+  
 }
 .headline1 {
   font-weight: 900;
