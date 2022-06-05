@@ -49,20 +49,22 @@ body {
 }
 .section1 {
   height: 600px;
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  
-}
+    }
 .section {
   padding-bottom: 94px;
   
 }
+.section>.section1{max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;}
 .headline1 {
   font-weight: 900;
   font-size: 44px;
@@ -445,3 +447,7 @@ p {
   margin: 0;
   padding: 0;
 }
+.list5{display: flex;
+    justify-content: space-around;
+  padding-bottom: 94px;
+list-style: none;}
