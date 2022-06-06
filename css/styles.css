@@ -338,6 +338,9 @@ body {
   border-radius: 0px 0px 4px 4px;
   padding: 6px 22px 6px 22px;
 }
+.button1-1:active {
+  background: var(--brand-color);
+}
 .section-buttons li:nth-child(1n + 2) {
   margin-left: 8px;
 }
@@ -397,7 +400,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.list1-2 li :hover{
+.list1-2 li :hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -459,4 +462,7 @@ p {
   justify-content: space-around;
   padding-bottom: 94px;
   list-style: none;
+}
+.elipse :hover {
+  fill: var(--brand-color);
 }
