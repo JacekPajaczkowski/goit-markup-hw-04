@@ -56,7 +56,7 @@ body {
       rgba(98, 100, 110, 0.4),
       rgba(98, 100, 110, 0.4)
     ),
-    url("./images/background.jpg");
+    url("/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -134,9 +134,10 @@ body {
 .adres-list {
   display: flex;
   justify-content: space-between;
-  line-height: 1.17;
+    line-height: 1.17;
   padding-left: 0%;
-  margin-left: 371px;
+  margin-left: 345px;
+  width: 321px;
 }
 .footer-adres-list {
   list-style: none;
@@ -153,16 +154,17 @@ body {
   text-decoration: none;
   color: #757575;
   display: flex;
+  fill: #757575;
 }
 .mail:hover {
   color: var(--brand-color);
   text-decoration: none;
-  fill: var(--color2, #2196f3)
+  fill: var(--color2, #2196f3);
 }
 .mail:focus {
   color: var(--brand-color);
   text-decoration: none;
-  fill: var(--color2, #2196f3)
+  fill: var(--color2, #2196f3);
 }
 .mail1:hover {
   color: var(--brand-color);
@@ -184,12 +186,12 @@ body {
 .phone:hover {
   color: var(--brand-color);
   text-decoration: none;
-  fill: var(--color2, #2196f3)
+  fill: var(--color2, #2196f3);
 }
 .phone:focus {
   color: var(--brand-color);
   text-decoration: none;
-  fill: var(--color2, #2196f3)
+  fill: var(--color2, #2196f3);
 }
 .phone1:hover {
   color: var(--brand-color);
@@ -469,6 +471,23 @@ p {
   padding-bottom: 94px;
   list-style: none;
 }
-.elipse :hover {
-  fill: var(--brand-color);
+.envelope {
+  margin-right: 10px;
 }
+.smartphone {
+  margin-right: 10px;
+}
+.elipse{
+  fill: #fff;  
+}
+.elipse:hover {
+    fill: var(--white);
+   
+}
+.elipsefooter {
+  fill: #ffffff;
+  fill-opacity: 0.1;
+}
+.elipsefooter:hover {
+  fill: #2196f3;
+  }
