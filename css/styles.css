@@ -56,7 +56,7 @@ body {
       rgba(98, 100, 110, 0.4),
       rgba(98, 100, 110, 0.4)
     ),
-    url("../images/background.jpg");
+    url("./images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -152,14 +152,17 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
+  display: flex;
 }
 .mail:hover {
   color: var(--brand-color);
   text-decoration: none;
+  fill: var(--color2, #2196f3)
 }
 .mail:focus {
   color: var(--brand-color);
   text-decoration: none;
+  fill: var(--color2, #2196f3)
 }
 .mail1:hover {
   color: var(--brand-color);
@@ -176,14 +179,17 @@ body {
 
   color: #757575;
   text-decoration: none;
+  display: flex;
 }
 .phone:hover {
   color: var(--brand-color);
   text-decoration: none;
+  fill: var(--color2, #2196f3)
 }
 .phone:focus {
   color: var(--brand-color);
   text-decoration: none;
+  fill: var(--color2, #2196f3)
 }
 .phone1:hover {
   color: var(--brand-color);
