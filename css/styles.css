@@ -308,16 +308,17 @@ body {
   flex-direction: column;
   justify-content: space-around;
   margin-left: 70px;
-  
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-color: var(--white);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--white);
 }
-.footer2{display: flex;
+.footer2 {
+  display: flex;
 }
 .mail1 {
   text-decoration: none;
@@ -493,9 +494,41 @@ p {
   margin-right: 10px;
 }
 
-.elipse:hover {
-  fill: #2196f3;
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
+
+.social-list-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: var(--link-color1);
+    margin-right: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    color: currentColor;
+    justify-content: center;
+    align-items: center;
+}
+ul .social-list {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-bottom: 42px;
+    
+}
+
 .elipsefooter {
   fill: #ffffff;
   fill-opacity: 0.1;
