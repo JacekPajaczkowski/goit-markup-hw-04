@@ -21,7 +21,7 @@ body {
 .header > .container {
   height: 80px;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 .header {
   background: var(--white);
@@ -135,7 +135,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-    line-height: 1.17;
+  line-height: 1.17;
   padding-left: 0%;
   margin-left: 345px;
   width: 321px;
@@ -179,10 +179,10 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-display: flex;
+  display: flex;
   color: #757575;
   text-decoration: none;
-  }
+}
 .phone:hover {
   color: var(--brand-color);
   text-decoration: none;
@@ -302,7 +302,22 @@ display: flex;
 
   color: var(--white);
   display: flex;
+}
+.footer-links {
+  display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  margin-left: 70px;
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: var(--white);
+}
+.footer2{display: flex;
 }
 .mail1 {
   text-decoration: none;
@@ -477,12 +492,9 @@ p {
 .smartphone {
   margin-right: 10px;
 }
-.elipse{
-  fill: #fff;  
-}
+
 .elipse:hover {
-    fill: var(--white);
-   
+  fill: #2196f3;
 }
 .elipsefooter {
   fill: #ffffff;
@@ -490,4 +502,5 @@ p {
 }
 .elipsefooter:hover {
   fill: #2196f3;
-  }
+}
+/*fill="#2196f3" style="fill: var(--color2, #2196f3)*/
