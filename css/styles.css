@@ -494,46 +494,86 @@ p {
   margin-right: 10px;
 }
 
-
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .social-list-link {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    color: var(--link-color1);
-    margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #afb1b8;
+  margin-right: 10px;
 }
 
 .social-icon {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    color: currentColor;
-    justify-content: center;
-    align-items: center;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  color: currentColor;
+  justify-content: center;
+  align-items: center;
 }
-ul .social-list {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding-bottom: 42px;
-    
+.social-list {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
-.elipsefooter {
-  fill: #ffffff;
-  fill-opacity: 0.1;
+.social-list-link-footer {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #afb1b8;
+  margin-right: 10px;
 }
-.elipsefooter:hover {
-  fill: #2196f3;
+
+.social-icon-footer {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  color: currentColor;
+  justify-content: center;
+  align-items: center;
 }
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+
 /*fill="#2196f3" style="fill: var(--color2, #2196f3)*/
+.client-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  fill: #afb1b8;
+}
+.client-icon:hover,
+.client-icon:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
