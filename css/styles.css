@@ -56,7 +56,7 @@ body {
       rgba(98, 100, 110, 0.4),
       rgba(98, 100, 110, 0.4)
     ),
-    url("../images/background.jpg");
+    url("../images/Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
